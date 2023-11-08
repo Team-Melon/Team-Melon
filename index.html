@@ -7,7 +7,16 @@
     	<style>
 
             :root {
-                --primary-theme-color: chocolate;
+                --primary-theme-color: #17B169;
+                --secondary-theme-color: black;
+            }
+
+
+            .main {
+                background-color: var(--primary-theme-color);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: white;
             }
 
             .navbar {
@@ -15,13 +24,18 @@
             }
 
             .game-div {
-                border: solid medium var(--primary-theme-color);
+                border: solid medium var(--secondary-theme-color);
                 padding: 10px;
                 margin: 10px;
             }
 
+            h6 {
+                color: lightgray;
+                opacity: 0.5;
+            }
+
             footer {
-                background-color: var(--primary-theme-color);
+                background-color: var(--secondary-theme-color);
             }
 
             footer a {
@@ -49,7 +63,7 @@
               left: 0;
               right: 0;
               bottom: 0;
-              background-color: var(--primary-theme-color);
+              background-color: lightgray;
               -webkit-transition: .4s;
               transition: .4s;
             }
@@ -67,7 +81,7 @@
             }
 
             input:checked + .slider {
-              background-color: var(--primary-theme-color);
+              background-color: darkslategray;
             }
 
             input:focus + .slider {
@@ -160,7 +174,6 @@
               </button>
             </div>
         </header>
-        <br>
         <div class="container-fluid text-center main" id="main">
             <div class="row">
                 <div class="col game-div">
@@ -184,7 +197,7 @@
                     <h6>Action</h6>
                 </div>
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1nLzEyODAyMTIwLmdpZg==/original/B%2BX1y8.gif" class="img-fluid" alt="Papers? Yes Please"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjE2MjYyNS8xMzEwNDc4Ni5wbmc=/794x1000/aTXPbn.png" class="img-fluid" alt="Papers? Yes Please"></a>
                     <hr>
                     <p>Forge documents to bypass the security of the border control to get out of the country!</p>
                     <h6>Visual Novel</h6>
@@ -198,7 +211,7 @@
                     <h6>Fighting</h6>
                 </div>
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1nLzEwOTE0MDAxLnBuZw==/original/%2BEtpEg.png" class="img-fluid" alt="Cottageville"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTg1ODA3Mi8xMDkxMzk3Ni5wbmc=/794x1000/q8EXQQ.png" class="img-fluid" alt="Cottageville"></a>
                     <hr>
                     <p>A cozy game where you can design the interior of your cottage, invite your friends, chill out and listen to lo-fi tunes!</p>
                     <h6>Simulation</h6>
@@ -206,71 +219,70 @@
             </div>    
             <div class="row">
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTY1MTEwNS85NzE4NTg3LnBuZw==/794x1000/T9XUvB.png" class="img-fluid" alt="Money Seeker"></a>
                     <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
+                    <p>Venture in a casino and spend money on a lottery machine to get as much money as possible to win!</p>
+                    <h6>Adventure</h6>
                 </div>
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTYyMDkwMS85NDk3MjkxLnBuZw==/794x1000/MIjjHw.png" class="img-fluid" alt="Slay The Dice"></a>
                     <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
-                    <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
-                </div>
-                <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
-                    <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
+                    <p>Fight against the Dice of Trickery, capable of casting evil tricks on anyone that dares to challenge it.</p>
+                    <h6>Platformer</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTcxMjE4My8xMDMyNzI4NC5wbmc=/794x1000/%2B3gppk.png" class="img-fluid" alt="Knight Rider:Arsenal"></a>
                     <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
+                    <p>🏆Join Michael Knight and KITT on a high-octane adventure featuring three game modes.</p>
+                    <h6>Action</h6>
                 </div>
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTQ3MTI0Ni84NTkxNjg5LnBuZw==/794x1000/Q9mck5.png" class="img-fluid" alt="This Is Sketchy"></a>
                     <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
-                    <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
-                </div>
-                <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
-                    <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
+                    <p>This is a very sketchy game, beware! Made for Ludum Dare 50!</p>
+                    <h6>Platformer</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col game-div">
-                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMjMyNzkwNy8xMzc4OTY3MS5wbmc=/794x1000/kYDMTW.png" class="img-fluid" alt="Torch Guy:Relit"></a>
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTQxODAxNi84MjgxNDM5LnBuZw==/794x1000/K7qIbx.png" class="img-fluid" alt="LASERKEEP"></a>
                     <hr>
-                    <p>2.5D tile-based roguelike where you travel across dimensions and throw torches at enemies to free your path!</p>
-                    <h6>Survival</h6>
+                    <p>A third person shooter where you face off against invisible enemies.</p>
+                    <h6>Action</h6>
+                </div>
+                <div class="col game-div">
+                    <a href=""><img src="https://img.itch.zone/aW1nLzc5NDk5MzcucG5n/315x250%23c/KfXiDN.png" class="img-fluid" alt="Veggie Tale"></a>
+                    <hr>
+                    <p>Discover the mystery behind the torment of the vegetables.</p>
+                    <h6>Role Playing</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col game-div">
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTE3MDA3Mi82ODYxNTMzLnBuZw==/794x1000/G2SO91.png" class="img-fluid" alt="Own The Floor"></a>
+                    <hr>
+                    <p>A 2.5D rhythmic bullet-hell game, where you have to keep the flow of the party night show going!</p>
+                    <h6>Rhythm</h6>
+                </div>
+                <div class="col game-div">
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvMTE1MTY5Ni82NjkzNzIyLnBuZw==/794x1000/hiVEtW.png" class="img-fluid" alt="ASH"></a>
+                    <hr>
+                    <p>An online multiplayer experience where you fight in the world of Absurd Showdown Hostilities.</p>
+                    <h6>Fighting</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col game-div">
+                    <a href=""><img src="https://img.itch.zone/aW1hZ2UvOTIwMTE0LzUyNjQ0MjAucG5n/794x1000/yDLUgs.png" class="img-fluid" alt="Separated"></a>
+                    <hr>
+                    <p>To be deeply loved by someone gives you strength, but to love someone deeply gives you courage.</p>
+                    <h6>Adventure</h6>
                 </div>
                 <div class="col"></div>
             </div>                    
         </div>
-        <br>
         <footer class="container-fluid text-center">
             <br>
             <div class="container" style="padding-left: 150px;">
@@ -291,10 +303,16 @@
             let root = document.querySelector(':root');
             const mode = document.getElementById('mode');
             mode.addEventListener('change', ()=>{
-                if (getComputedStyle(root).getPropertyValue('--primary-theme-color') == 'chocolate')
+                if (getComputedStyle(root).getPropertyValue('--primary-theme-color') == '#17B169')
+                {  // Enabling Dark Mode 
                     root.style.setProperty('--primary-theme-color', 'black');
+                    root.style.setProperty('--secondary-theme-color', '#17B169')
+                }
                 else
-                    root.style.setProperty('--primary-theme-color', 'chocolate');
+                { // Enabling Light Mode
+                    root.style.setProperty('--primary-theme-color', '#17B169');
+                    root.style.setProperty('--secondary-theme-color', 'black')
+                }
             });
         </script>
     </body>
