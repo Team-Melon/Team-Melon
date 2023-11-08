@@ -9,6 +9,7 @@
             :root {
                 --primary-theme-color: #17B169;
                 --secondary-theme-color: black;
+                --game-div-bg: salmon;
             }
 
 
@@ -28,6 +29,7 @@
                 padding: 10px;
                 margin: 10px;
                 border-radius: 5%;
+                background-color: var(--game-div-bg);
             }
 
             .img-fluid {
@@ -68,7 +70,8 @@
               left: 0;
               right: 0;
               bottom: 0;
-              background-color: lightgray;
+              background-color: salmon;
+              border: solid 1px black;
               -webkit-transition: .4s;
               transition: .4s;
             }
@@ -86,7 +89,7 @@
             }
 
             input:checked + .slider {
-              background-color: #17B169;
+              background-color: gray;
             }
 
             input:focus + .slider {
@@ -311,12 +314,14 @@
                 if (getComputedStyle(root).getPropertyValue('--primary-theme-color') == '#17B169')
                 {  // Enabling Dark Mode 
                     root.style.setProperty('--primary-theme-color', 'black');
-                    root.style.setProperty('--secondary-theme-color', '#17B169')
+                    root.style.setProperty('--secondary-theme-color', '#17B169');
+                    root.style.setProperty('--game-div-bg', '#330000');
                 }
                 else
                 { // Enabling Light Mode
                     root.style.setProperty('--primary-theme-color', '#17B169');
-                    root.style.setProperty('--secondary-theme-color', 'black')
+                    root.style.setProperty('--secondary-theme-color', 'black');
+                    root.style.setProperty('--game-div-bg', 'salmon');
                 }
             });
         </script>
